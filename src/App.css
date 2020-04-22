@@ -1,0 +1,139 @@
+@font-face {
+  font-family: "ARS Maquette Pro Light";
+  src: url("//db.onlinewebfonts.com/t/4629c048a3822d4fed2b0472eb3e708f.eot");
+  src: url("//db.onlinewebfonts.com/t/4629c048a3822d4fed2b0472eb3e708f.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/4629c048a3822d4fed2b0472eb3e708f.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/4629c048a3822d4fed2b0472eb3e708f.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/4629c048a3822d4fed2b0472eb3e708f.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/4629c048a3822d4fed2b0472eb3e708f.svg#ARS Maquette Pro Light")
+      format("svg");
+}
+
+@font-face {
+  font-family: "ARS Maquette Pro Light Italic";
+  src: url("//db.onlinewebfonts.com/t/64327e375a92a66cab1ca557d12cfae0.eot");
+  src: url("//db.onlinewebfonts.com/t/64327e375a92a66cab1ca557d12cfae0.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/64327e375a92a66cab1ca557d12cfae0.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/64327e375a92a66cab1ca557d12cfae0.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/64327e375a92a66cab1ca557d12cfae0.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/64327e375a92a66cab1ca557d12cfae0.svg#ARS Maquette Pro Light")
+      format("svg");
+}
+body {
+  position: relative;
+}
+
+header {
+  background-color: #282c34;
+  min-height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  font-size: 16px;
+  color: #fff;
+}
+.QuizQuestion {
+  display: flex;
+  justify-content: center;
+  font-size: 2em;
+  text-align: center;
+  font-family: ARS Maquette Pro Light;
+  background-image: url("./banner_2_background.jpg");
+  min-height: calc(100vh - 100px);
+  margin: auto;
+  padding: 50px;
+}
+.QuizEnd {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  text-align: center;
+  font-size: 2em;
+  padding-top: 20px;
+}
+.QuizEnd a {
+  display: block;
+  padding-top: 20px;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+li {
+  list-style-type: none;
+  display: block;
+  margin-top: 20px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  flex-direction: column;
+}
+button,
+.ctabtn {
+  cursor: pointer;
+  outline: none;
+  font-size: 30px;
+  display: block;
+  color: #20bf6b;
+  text-transform: capitalize;
+  background: #ffffff;
+  padding: 20px;
+  border: 4px solid #20bf6b;
+  border-radius: 6px;
+  display: inline-block;
+  transition: all 0.3s linear 0s;
+}
+button:hover,
+.ctabtn:hover {
+  font-size: 45px;
+  padding: 30px;
+  color: #20bf6b;
+  border-radius: 50px;
+  transition: all 0.3s linear 0s;
+}
+.ctabtn {
+  text-transform: uppercase;
+  font-size: 30px;
+  text-decoration: none;
+}
+.error {
+  color: red;
+  font-family: ARS Maquette Pro Light;
+}
+.copyright-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: white;
+  min-height: 100px;
+  background: black;
+  font: bold 16px/1.4 ARS Maquette Pro Light;
+  font-size: 15px;
+  font-family: ARS Maquette Pro Light Italic;
+}

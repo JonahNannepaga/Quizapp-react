@@ -1,0 +1,48 @@
+{
+  "quiz_questions": [
+    {
+      "id": 1,
+      "instruction_text": "How many continents are there on Planet Earth?",
+      "answer_options": ["5", "6", "7", "8"],
+      "answer": "7"
+    },
+    {
+      "id": 3,
+      "instruction_text": "How many protons are in an oxygen atom?",
+      "answer_options": ["8", "5", "12", "16"],
+      "answer": "8"
+    },
+
+    {
+      "id": 4,
+      "instruction_text": "What is the scientific name of a butterfly?",
+      "answer_options": ["Apis", "Coleoptera", "Formicidae", "Rhopalocera"],
+      "answer": "Rhopalocera"
+    },
+    {
+      "id": 5,
+      "instruction_text": "What is the largest animal currently on Earth?",
+      "answer_options": ["Orca", "Colossal Squid", "Giraffe", "Blue Whale"],
+      "answer": "Blue Whale"
+    },
+    {
+      "id": 6,
+      "instruction_text": "What country is the second largest in the world by area?",
+      "answer_options": ["Russia", "China", "USA", "Canada"],
+      "answer": "Canada"
+    },
+    {
+      "id": 7,
+      "instruction_text": "Which country will host the 2020 Summer Olympics?",
+      "answer_options": ["Japan", "China", "Germany", "Canada"],
+      "answer": "Japan"
+    },
+
+    {
+      "id": 8,
+      "instruction_text": "Leonardo da Vinci was not the creator of the Mona Lisa.",
+      "answer_options": ["true", "false"],
+      "answer": "true"
+    }
+  ]
+}
