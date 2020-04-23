@@ -44,10 +44,20 @@ header {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  -ms-flex-pack: distribute;
+  -ms-flex-pack: distributse;
   justify-content: space-around;
   font-size: 16px;
   color: #fff;
+}
+@media only screen and (max-width: 767px) {
+  header {
+    font-size: 12px;
+  }
+  header h1 {
+    max-width: 280px;
+    text-align: center;
+    margin: auto;
+  }
 }
 .QuizQuestion {
   display: flex;

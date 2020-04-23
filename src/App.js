@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <div>
         <header>
-          <h1>Quiz Game in React</h1>
+          <h1>Quiz Game developed in React</h1>
         </header>
         <Quiz />
         <Copyright />

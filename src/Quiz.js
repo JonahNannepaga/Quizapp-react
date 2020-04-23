@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import QuizQuestion from "./QuizQuestion";
 import QuizEnd from "./QuizEnd";
-import Copyright from "./Copyright";
 let quizData = require("./quiz_data.json");
 
 class Quiz extends Component {

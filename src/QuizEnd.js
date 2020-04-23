@@ -14,7 +14,7 @@ class QuizEnd extends Component {
       <div>
         <p>Thanks for playing!</p>
         <a
-          href="#"
+          tabIndex="0"
           className="ctabtn"
           onClick={this.handleResetClick.bind(this)}
         >
